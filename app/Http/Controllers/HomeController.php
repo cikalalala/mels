@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('app_modern');
     }
+
+    public function adminHome() 
+    {
+        return view('adminHome');
+    }
 }
